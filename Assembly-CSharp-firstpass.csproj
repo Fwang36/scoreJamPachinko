@@ -817,6 +817,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="LootLockerExamples.csproj">
+      <Project>{F1FF4A7F-27FD-FB13-B0EA-B7E8B72F700E}</Project>
+      <Name>LootLockerExamples</Name>
+    </ProjectReference>
+    <ProjectReference Include="lootlocker.lootlockersdk.runtime.csproj">
+      <Project>{E19D03A9-6AC5-C95F-0B79-38498C22A77B}</Project>
+      <Name>lootlocker.lootlockersdk.runtime</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />

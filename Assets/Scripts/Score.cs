@@ -4,11 +4,14 @@ using UnityEngine;
 using Sentry;
 using System;
 using UnityEngine.SceneManagement;
+using LootLocker.Requests;
 public class Score : MonoBehaviour
 {
     public int scoreAwarded;
     public bool ballBounce;
     static int count;
+
+    public string id;
     // Start is called before the first frame update
     void Start()
     {
@@ -51,6 +54,17 @@ public class Score : MonoBehaviour
         if(count == 3)
         {
             count = 0;
+            id = PlayerPrefs.GetInt("id").ToString();
+            
+        LootLockerSDKManager.SubmitScore(id, PlayerPrefs.GetInt("totalScore"), 15264, (response) =>
+        {
+            if (response.statusCode == 200) {
+                Debug.Log("Successful");
+            } else {
+                Debug.Log("failed: " + response.Error);
+            }
+        });
+
             SceneManager.LoadScene(2);
             return;
         }
