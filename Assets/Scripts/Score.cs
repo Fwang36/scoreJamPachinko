@@ -30,8 +30,13 @@ public class Score : MonoBehaviour
             PlayerPrefs.Save();
             print("Your score is:");
             print(newScore);
-            // @Fran edit upon rest of the ball
+
+
+            // @Fran edit upon rest of the ball each round 
             ballBounce = true;
+            //@Fran set the code below when restarting the game
+            // PlayerPrefs.SetInt("totalScore", 0);
+            
         }
 
         // SentrySdk.CaptureMessage("Something went wrong");
