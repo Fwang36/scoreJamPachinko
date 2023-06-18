@@ -36,6 +36,8 @@ public class Score : MonoBehaviour
             ballBounce = true;
             //@Fran set the code below when restarting the game
             // PlayerPrefs.SetInt("totalScore", 0);
+
+            //current state 
             
         }
 
