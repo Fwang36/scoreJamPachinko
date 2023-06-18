@@ -7,6 +7,7 @@ public class Menu : MonoBehaviour
 {
     public void onPlayButton()
     {
+        PlayerPrefs.SetInt("totalScore", 0);
         SceneManager.LoadScene(1);
     }
     public void onQuitButton()
