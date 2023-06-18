@@ -1,10 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Serialization;
+using Sentry;
+using System;
 
 public class Score : MonoBehaviour
 {
-    public int score;
+    [FormerlySerializedAs("score")]
+    public int scoreAwarded;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -14,8 +19,19 @@ public class Score : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        score = score + 100;
-        print(score,"Kobby");
+
+    }
+
+    void OnCollisionEnter(Collision other)
+    {
+        var newScore = PlayerPrefs.GetInt("totalScore")+ scoreAwarded;
+        PlayerPrefs.SetInt("totalScore", newScore);
+        PlayerPrefs.Save();
+        print(newScore);
+
+        // SentrySdk.CaptureMessage("Something went wrong");
+        // throw new Exception("Kobby test error from score feature");
+        
     }
 
 }
