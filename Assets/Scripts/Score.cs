@@ -26,7 +26,8 @@ public class Score : MonoBehaviour
         var newScore = PlayerPrefs.GetInt("totalScore") + scoreAwarded;
         
         if(ballBounce == false){
-            PlayerPrefs.SetInt("totalScore", newScore);
+            // PlayerPrefs.SetInt("totalScore", newScore);
+            PlayerPrefs.SetInt("totalScore", 0);
             PlayerPrefs.Save();
             print("Your score is:");
             print(newScore);
