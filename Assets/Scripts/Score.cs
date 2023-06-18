@@ -15,7 +15,7 @@ public class Score : MonoBehaviour
     void Update()
     {
         // score = score + 50;
-        print(score);
+        // print(score);
     }
 
 }
