@@ -10,12 +10,15 @@
 /[Ll]ogs/
 /[Uu]ser[Ss]ettings/
 Library
-/[Aa]ssets/Plugins/Sentry*
 
+/[Aa]ssets/Plugins/Sentry/
+
+/[Aa]ssets/Plugins/Sentry/
 /[Aa]ssets/Plugins/Sentry.meta
-/[Aa]ssets/Resources/Sentry
-/[Aa]ssets/Resources/Sentry.meta
 
+
+/[Aa]ssets/Resources/Sentry/
+/[Aa]ssets/Resources/Sentry.meta
 # MemoryCaptures can get excessive in size.
 # They also could contain extremely sensitive data
 /[Mm]emoryCaptures/

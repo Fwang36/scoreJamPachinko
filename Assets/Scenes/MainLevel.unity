@@ -759,7 +759,7 @@ GameObject:
   - component: {fileID: 255944074}
   - component: {fileID: 255944076}
   - component: {fileID: 255944075}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: Left 10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1102,7 +1102,7 @@ GameObject:
   - component: {fileID: 425421264}
   - component: {fileID: 425421266}
   - component: {fileID: 425421265}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: Left 20
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1460,7 +1460,7 @@ GameObject:
   - component: {fileID: 471344340}
   - component: {fileID: 471344342}
   - component: {fileID: 471344341}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: Right 10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3472,7 +3472,7 @@ GameObject:
   - component: {fileID: 1036347712}
   - component: {fileID: 1036347714}
   - component: {fileID: 1036347713}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: Right 20
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4277,7 +4277,7 @@ GameObject:
   - component: {fileID: 1243854753}
   - component: {fileID: 1243854755}
   - component: {fileID: 1243854754}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: Right 30
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5617,7 +5617,7 @@ GameObject:
   - component: {fileID: 1485330320}
   - component: {fileID: 1485330322}
   - component: {fileID: 1485330321}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: Left 50
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6345,7 +6345,7 @@ GameObject:
   - component: {fileID: 1699101111}
   - component: {fileID: 1699101113}
   - component: {fileID: 1699101112}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: Left 30
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7582,7 +7582,7 @@ GameObject:
   - component: {fileID: 1999993093}
   - component: {fileID: 1999993092}
   - component: {fileID: 1999993094}
-  m_Layer: 5
+  m_Layer: 7
   m_Name: Current Score
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7629,7 +7629,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 1000
+  m_text: 100
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: e73a58f6e2794ae7b1b7e50b7fb811b0, type: 2}
@@ -8108,7 +8108,8 @@ GameObject:
   - component: {fileID: 2073144489}
   - component: {fileID: 2073144491}
   - component: {fileID: 2073144490}
-  m_Layer: 5
+  - component: {fileID: 2073144492}
+  m_Layer: 6
   m_Name: ScoreDisplay
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8132,8 +8133,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 30}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -578, y: 354}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchoredPosition: {x: -627.19666, y: 431.56848}
+  m_SizeDelta: {x: 237.9439, y: 74.8379}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2073144490
 MonoBehaviour:
@@ -8155,7 +8156,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: SCORE
+  m_text: 'SCORE: '
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -8218,7 +8219,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -180.31659, y: 0, z: 0, w: 0}
+  m_margin: {x: -213.56012, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -8232,6 +8233,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2073144488}
   m_CullTransparentMesh: 1
+--- !u!114 &2073144492
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2073144488}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 226c843568b604ef4b16ef009e32296e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Text: {fileID: 1999993092}
 --- !u!1 &2123898335
 GameObject:
   m_ObjectHideFlags: 0
