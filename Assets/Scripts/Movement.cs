@@ -29,9 +29,9 @@ public class Movement : MonoBehaviour
             GetComponent<Rigidbody>().useGravity = true;
         }
 
-        if (Input.GetKeyDown("return"))
+        if (Input.GetKeyDown("u"))
         {
-            print("Enter Pressed");
+            print("U key pressed");
             throw new Exception("Test Error");
         }
     }
