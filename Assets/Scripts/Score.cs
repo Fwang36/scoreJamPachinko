@@ -8,7 +8,7 @@ public class Score : MonoBehaviour
 {
     public int scoreAwarded;
     public bool ballBounce;
-    public int count;
+    static int count;
     // Start is called before the first frame update
     void Start()
     {
@@ -48,6 +48,13 @@ public class Score : MonoBehaviour
 
     public void OnBallStop()
     {
+        if(count == 3)
+        {
+            count = 0;
+            SceneManager.LoadScene(2);
+            return;
+        }
+
         ballBounce = false;
         print("Current Count");
         print(count);
