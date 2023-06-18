@@ -14,7 +14,7 @@ public class Score : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        score = score + 50;
+        score = score + 70;
         print(score);
     }
 
