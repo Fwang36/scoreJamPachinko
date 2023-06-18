@@ -16,23 +16,21 @@ public class Movement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (Input.GetKeyDown("space"))
+        {
+            GetComponent<Rigidbody>().useGravity = true;
+        }
+
+        if (Input.GetKeyDown("return"))
+        {
+            print("Enter key pressed");
+            throw new Exception("Test Error");
+        }
     }
     void FixedUpdate () 
     {
 
         Vector3 move = new Vector3(Input.GetAxis("Horizontal"), 0, 0);
         GetComponent<Rigidbody>().AddForce(move);
-
-        if (Input.GetKeyDown("space"))
-        {
-            GetComponent<Rigidbody>().useGravity = true;
-        }
-
-        if (Input.GetKeyDown("u"))
-        {
-            print("U key pressed");
-            throw new Exception("Test Error");
-        }
     }
 }
