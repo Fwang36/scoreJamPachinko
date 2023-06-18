@@ -27,6 +27,7 @@ public class Score : MonoBehaviour
         var newScore = PlayerPrefs.GetInt("totalScore")+ scoreAwarded;
         PlayerPrefs.SetInt("totalScore", newScore);
         PlayerPrefs.Save();
+        print("Your score is:");
         print(newScore);
 
         // SentrySdk.CaptureMessage("Something went wrong");
