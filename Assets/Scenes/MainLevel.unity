@@ -1697,6 +1697,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scoreAwarded: 30
   ballBounce: 0
+  id: 
 --- !u!1 &551828431
 GameObject:
   m_ObjectHideFlags: 0
@@ -2893,8 +2894,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d017452f41ee34b5698ffd92452c0c59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreAwarded: 10
+  scoreAwarded: 30
   ballBounce: 0
+  id: 
 --- !u!1 &853768366
 GameObject:
   m_ObjectHideFlags: 0
@@ -3119,6 +3121,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scoreAwarded: 30
   ballBounce: 0
+  id: 
 --- !u!1 &882056601
 GameObject:
   m_ObjectHideFlags: 0
@@ -3168,6 +3171,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scoreAwarded: 20
   ballBounce: 0
+  id: 
 --- !u!23 &882056605
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3709,6 +3713,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scoreAwarded: 20
   ballBounce: 0
+  id: 
 --- !u!1 &1145384747
 GameObject:
   m_ObjectHideFlags: 0
@@ -4044,6 +4049,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scoreAwarded: 50
   ballBounce: 0
+  id: 
 --- !u!1 &1234807494
 GameObject:
   m_ObjectHideFlags: 0
@@ -5509,6 +5515,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scoreAwarded: 10
   ballBounce: 0
+  id: 
 --- !u!1 &1479554532
 GameObject:
   m_ObjectHideFlags: 0
