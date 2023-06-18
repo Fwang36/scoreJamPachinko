@@ -96,6 +96,7 @@
     <Compile Include="Assets/Scripts/currentScoreScript.cs" />
     <Compile Include="Assets/Scripts/Menu.cs" />
     <Compile Include="Assets/Scripts/EndMenu.cs" />
+    <Compile Include="Assets/Scripts/Leaderboard.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />
