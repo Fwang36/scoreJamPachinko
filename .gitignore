@@ -12,7 +12,9 @@
 Library
 
 /[Aa]ssets/Plugins/Sentry/
-/[Aa]ssets/Plugins/Sentry/Sentry*
+
+/[Aa]ssets/Plugins/Sentry/
+/[Aa]ssets/Plugins/Sentry.meta
 # MemoryCaptures can get excessive in size.
 # They also could contain extremely sensitive data
 /[Mm]emoryCaptures/
