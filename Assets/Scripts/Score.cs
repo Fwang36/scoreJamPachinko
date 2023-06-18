@@ -10,7 +10,7 @@ public class Score : MonoBehaviour
     public int scoreAwarded;
     public bool ballBounce;
     static int count;
-
+    static int finalScore;
     public string id;
     // Start is called before the first frame update
     void Start()
@@ -57,7 +57,8 @@ public class Score : MonoBehaviour
         {
             count = 0;
             id = PlayerPrefs.GetInt("id").ToString();
-            
+            finalScore = PlayerPrefs.GetInt("totalScore");
+
         LootLockerSDKManager.SubmitScore(id, PlayerPrefs.GetInt("totalScore"), 15264, (response) =>
         {
             if (response.statusCode == 200) {

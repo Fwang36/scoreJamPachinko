@@ -3,12 +3,16 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
+
 public class currentScoreScript : MonoBehaviour
 {
     public TextMeshProUGUI Text;
+    int finalScore = 0;
     // Start is called before the first frame update
     void Start()
     {
+        finalScore = PlayerPrefs.GetInt("totalScore");
+        
         if (gameObject.layer == LayerMask.NameToLayer("NoTextMeshPro"))
         {
             enabled = false; // Disable the script for this object
@@ -26,6 +30,13 @@ public class currentScoreScript : MonoBehaviour
             enabled = true; // Enable the script for this object
             Text = GetComponent<TextMeshProUGUI>();
             Text.text = PlayerPrefs.GetInt("totalScore").ToString();
+            return;
+        }
+        if (gameObject.layer == LayerMask.NameToLayer("finalScore"))
+        {
+            enabled = true; // Enable the script for this object
+            Text = GetComponent<TextMeshProUGUI>();
+            Text.text = "Final Score: " + finalScore;
             return;
         }
     }
