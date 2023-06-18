@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Sentry;
+using System;
 
 public class Movement : MonoBehaviour
 {
@@ -27,5 +29,10 @@ public class Movement : MonoBehaviour
             GetComponent<Rigidbody>().useGravity = true;
         }
 
+        if (Input.GetKeyDown("return"))
+        {
+            print("Enter Pressed");
+            throw new Exception("Test Error");
+        }
     }
 }

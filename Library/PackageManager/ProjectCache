@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638226399670000000
-    m_Hash: 1505612319
+      ticks: 638226432960000000
+    m_Hash: 322519267
   m_LockFileStatus:
     m_FilePath: /Users/home/Documents/unitytest/scoreJam/pachinko/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638226399670000000
-    m_Hash: 1655012099
+      ticks: 638226432960000000
+    m_Hash: 2266089953
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -1186,6 +1186,55 @@ m_ResolvedPackages:
     path: 
   unityLifecycle:
     version: 1.8.0
+    nextVersion: 
+- packageId: io.sentry.unity@https://github.com/getsentry/unity.git#1.4.1
+  testable: 0
+  isDirectDependency: 1
+  version: 1.4.1
+  source: 5
+  resolvedPath: /Users/home/Documents/unitytest/scoreJam/pachinko/Library/PackageCache/io.sentry.unity@ebcb1446e8
+  assetPath: Packages/io.sentry.unity
+  name: io.sentry.unity
+  displayName: Sentry Unity
+  author:
+    name: Sentry Application Monitoring
+    email: sdks@sentry.io
+    url: https://github.com/getsentry/sentry-unity
+  category: 
+  type: library
+  description: Sentry SDK for Unity
+  status: 0
+  errors: []
+  versions:
+    all: []
+    compatible: []
+    verified: 
+  dependencies: []
+  resolvedDependencies: []
+  keywords:
+  - logging
+  - performance
+  - diagnostics
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 
     nextVersion: 
 - packageId: com.unity.modules.ai@1.0.0
   testable: 0
