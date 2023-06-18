@@ -19,6 +19,7 @@ public class Score : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+<<<<<<< HEAD
 
     }
 
@@ -32,7 +33,7 @@ public class Score : MonoBehaviour
 
         // SentrySdk.CaptureMessage("Something went wrong");
         // throw new Exception("Kobby test error from score feature");
-        
+
     }
 
 }
