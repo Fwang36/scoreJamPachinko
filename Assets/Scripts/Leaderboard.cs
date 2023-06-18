@@ -6,7 +6,7 @@ public class Leaderboard : MonoBehaviour
 {
     // Start is called before the first frame update
     string leaderboardKey = "Pachanks";
-    int count = 50;
+    int count = 3;
     void Start()
     {
         
