@@ -1,0 +1,32 @@
+Pachanks
+Description
+Pachanks is an addictive and entertaining game that challenges your reflexes and hand-eye coordination. The objective of the game is to guide a ball through a maze of obstacles by moving left or right and dropping the ball at the right time to score points. With simple controls and engaging gameplay, Pachanks will keep you hooked for hours.
+
+Features
+Simple and intuitive controls:
+Use the 'A' key to move left.
+Use the 'D' key to move right.
+Press the spacebar to drop the ball.
+Engaging gameplay: Navigate the ball through challenging mazes to score as many points as possible.
+Addictive experience: The game's fast-paced nature and increasing difficulty will keep you engaged and motivated to improve your score.
+WebGL compatibility: Pachanks is designed to be played on WebGL-enabled devices, allowing you to enjoy the game on various platforms.
+
+How to Play
+Open the Pachanks game by visiting the following link: Pachanks: https://fwang36gmailcom.itch.io/pachanks.
+Once the game loads, use the 'A' key to move the ball to the left and the 'D' key to move it to the right.
+Drop the ball by pressing the spacebar at the right time to avoid obstacles and earn points.
+Continue navigating through the maze, dropping the ball strategically to accumulate a high score.
+Challenge yourself to improve your score with each attempt and share your achievements with friends.
+Development
+Pachanks was created by Francis and Kobby. It is written for WebGL, a web-based graphics library, to ensure compatibility with a wide range of browsers.
+
+Feedback and Support
+We hope you enjoy playing Pachanks! If you encounter any issues, have suggestions for improvements, or would like to provide general feedback, please don't hesitate to To create issue in the repository. We appreciate your support and will strive to make Pachanks an even better gaming experience based on your input.
+
+License
+Pachanks is released under the MIT License: https://opensource.org/license/mit/. Feel free to modify and distribute the game while complying with the terms of the license.
+
+Acknowledgements
+We would like to express our gratitude to the open-source community and the creators of the libraries and tools that made the development of Pachanks possible. Thank you for your contributions.
+
+Enjoy the game!
