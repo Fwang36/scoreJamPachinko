@@ -9,13 +9,13 @@ public class Score : MonoBehaviour
 {
     public int scoreAwarded;
     public bool ballBounce;
-    static int count;
+    public static int count;
+    public static int reversecount = 3;
     static int finalScore;
     public string id;
     // Start is called before the first frame update
     void Start()
     {
-        
     }
 
     // Update is called once per frame
@@ -34,6 +34,9 @@ public class Score : MonoBehaviour
             print("Your score is:");
             print(newScore);
             count = count + 1;
+            reversecount = reversecount - 1; 
+            PlayerPrefs.SetInt("count",reversecount);
+            PlayerPrefs.Save();
 
             // @Fran edit upon rest of the ball each round 
             ballBounce = true;
@@ -56,6 +59,9 @@ public class Score : MonoBehaviour
         if(count == 3)
         {
             count = 0;
+            reversecount = 3;
+            PlayerPrefs.SetInt("count",count);
+            PlayerPrefs.Save();
             id = PlayerPrefs.GetInt("id").ToString();
             finalScore = PlayerPrefs.GetInt("totalScore");
 

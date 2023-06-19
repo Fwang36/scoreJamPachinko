@@ -9,6 +9,9 @@ public class Menu : MonoBehaviour
     public void onPlayButton()
     {
         PlayerPrefs.SetInt("totalScore", 0);
+        PlayerPrefs.Save();
+        PlayerPrefs.SetInt("count",3);
+        PlayerPrefs.Save();
         LootLockerSDKManager.StartGuestSession((response) =>
         {
             if (!response.success)

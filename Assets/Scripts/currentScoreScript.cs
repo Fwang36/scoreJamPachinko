@@ -25,6 +25,13 @@ public class currentScoreScript : MonoBehaviour
             Text.text = "Score: " + PlayerPrefs.GetInt("totalScore").ToString();
             return;
         }
+        if (gameObject.layer == LayerMask.NameToLayer("ballsLeft"))
+        {
+            enabled = true; // Enable the script for this object
+            Text = GetComponent<TextMeshProUGUI>();
+            Text.text = "Balls Left: " + PlayerPrefs.GetInt("count").ToString();
+            return;
+        }
         if (gameObject.layer == LayerMask.NameToLayer("scoreCaptureFrame"))
         {
             enabled = true; // Enable the script for this object
