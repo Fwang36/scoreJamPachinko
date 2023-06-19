@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 using LootLocker.Requests;
 public class Menu : MonoBehaviour
 {
+
     public void onPlayButton()
     {
         PlayerPrefs.SetInt("totalScore", 0);
@@ -19,6 +20,7 @@ public class Menu : MonoBehaviour
             PlayerPrefs.SetInt("id", response.player_id);
             Debug.Log("successfully started Lootlocker session");
         });
+
         SceneManager.LoadScene(1);
     }
     public void onQuitButton()
