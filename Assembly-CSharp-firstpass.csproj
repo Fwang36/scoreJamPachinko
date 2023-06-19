@@ -335,6 +335,9 @@
     <Reference Include="ReportGeneratorMerged">
       <HintPath>Library/PackageCache/com.unity.testtools.codecoverage@1.2.2/lib/ReportGenerator/ReportGeneratorMerged.dll</HintPath>
     </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>Library/PackageCache/com.unity.nuget.newtonsoft-json@3.1.0/Runtime/Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="Sentry.System.Reflection.Metadata">
       <HintPath>Library/PackageCache/io.sentry.unity@ebcb1446e8/Runtime/Sentry.System.Reflection.Metadata.dll</HintPath>
     </Reference>
